@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+  margin: 80px 0;
+}
+.card {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+  box-shadow: 0px 10px 30px rgba(226, 31, 230, 0.2);
+  border-radius: 10px;
+  flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+  transition: .4s ease;
+}
+.card:hover{
+  scale: 1.05;
+}
+.card img {
+  border-radius: 10px;
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 18px;
+}
